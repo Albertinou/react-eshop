@@ -30,5 +30,4 @@ function Home() {
   );
 }
 
-// eslint-disable-next-line prettier/prettier
 export default Home;
