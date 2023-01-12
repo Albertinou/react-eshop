@@ -1,5 +1,16 @@
 function Navbar() {
-  return <h1>Navbar</h1>;
+  return (
+    <header>
+      <nav>
+        <a href=""></a>
+        <a href="/#">Home</a>
+        <a href="/#">Products</a>
+        <a href="/#">Sale</a>
+        <a href="/#">About</a>
+        <button>Login</button>
+      </nav>
+    </header>
+  );
 }
 
 export default Navbar;
