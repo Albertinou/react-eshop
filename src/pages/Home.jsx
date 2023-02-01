@@ -1,9 +1,14 @@
 import Navbar from '../components/navbar/Navbar';
+import './HomeStyles.scss';
 
 function Home() {
   return (
     <>
       <Navbar />
+      <img
+        src="./src/assets/IMG/Hero_section_shoe.jpg"
+        alt="hero section img"
+      />
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam

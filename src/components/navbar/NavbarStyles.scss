@@ -1,0 +1,20 @@
+.navBar {
+  background: #fdc86c;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+
+.logoContainer {
+  display: flex;
+  height: 80px;
+  padding-left: 40px;
+  img {
+    height: 70px;
+  }
+}
+
+.navItems ul {
+  display: flex;
+  flex-direction: row;
+}
